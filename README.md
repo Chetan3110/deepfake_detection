@@ -81,10 +81,13 @@ The following visualizations are generated during model training to assess perfo
 ![acc.png](visualization/acc.png)
 
 2.	Confusion Matrix: Visualizes the confusion matrix of the predictions.
+![cm.png](visualization/cm.png)
 
 3.	ROC Curve: Displays the Receiver Operating Characteristic curve.
+![roc.png](visualization/roc.png)
 
 4.	AUC Curve: Displays the Area Under Curve (AUC) metric.
+![auc.png](visualization/auc.png)
 
 These plots are saved as PNG images in the visualizations/ folder.
 

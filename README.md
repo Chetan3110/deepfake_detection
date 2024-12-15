@@ -88,6 +88,7 @@ The following visualizations are generated during model training to assess perfo
 These plots are saved as PNG images in the visualizations/ folder:
 
 •	acc.png
+`!(visualizations/acc.png)`
 
 •	cm.png
 

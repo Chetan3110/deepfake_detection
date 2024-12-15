@@ -78,7 +78,7 @@ The model is trained using the Model.ipynb Jupyter notebook. This notebook cover
 The following visualizations are generated during model training to assess performance:
 
 1.	Accuracy Plot: Displays training and validation accuracy over epochs.
-![acc.png](deepfake_detection\visualization\acc.png)
+![acc.png](visualization\acc.png)
 
 2.	Confusion Matrix: Visualizes the confusion matrix of the predictions.
 

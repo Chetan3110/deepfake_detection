@@ -1,0 +1,356 @@
+.img-preview {
+    height: 256px;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+    border-radius: 10px;
+    border: solid;
+    border-color: #63d5fb;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+#imageUpload{
+    border: solid 3px;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+	align-content: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    font-size: large;
+    text-align: center;
+    padding: initial;
+}
+
+.navbar{
+    padding: 10px;
+    position:sticky;
+}
+
+.navbar-brand{
+    color: black;
+    font-size: xxx-large;
+    font-weight: 600;
+}
+
+#result{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: math;
+    font-size: xxx-large;
+    font-weight: 600;
+}
+
+.text{
+    color: black;
+    font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Baloo 2', cursive;
+}
+
+.banner-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.banner-text ul {
+	height: 50px;
+	float: right;
+}
+
+.banner-text ul li {
+	display: inline-block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-text ul li:hover {
+	cursor: pointer;
+}
+
+.banner-text h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 10%;
+}
+
+.animation-area {
+	background: linear-gradient(to left, #8942a8, #ba382f);
+	width: 100%;
+	height: 100vh;
+}
+
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 5s;
+}
+
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 50px;
+	height:50px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+
+.box-area li:nth-child(7) {
+	left: 26%;
+	width: 120px;
+	height: 120px;
+	animation-delay: 0s;
+}
+
+.box-area li:nth-child(8) {
+	left: 82%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+
+
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.header{
+	color: #fff;
+	font-size: xx-large;
+	font-family: sans-serif;
+	font-style: oblique;
+}
+
+#btn-predict{
+	display: inline-block;
+    padding: 12px 30px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    position: relative;
+    left: 47%;
+    border-radius: 10px;
+    border: solid;
+    border-color: #63d5fb;
+}
+
+#result{
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+	font-style: oblique;
+}
+
+
+.subh{
+	color: #fff;
+	font-family: sans-serif;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg1, #myImg2, #myImg3, #myImg4 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-height: 500px;
+	max-width: 500px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  /*@media only screen and (max-width: 700px){
+	.modal-content {
+	  width: 100%;
+	}
+  }*/
+
+#header{
+	padding-right: 36rem;
+	font-size: xx-large;
+	font-weight: bolder;
+}

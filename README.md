@@ -78,6 +78,7 @@ The model is trained using the Model.ipynb Jupyter notebook. This notebook cover
 The following visualizations are generated during model training to assess performance:
 
 1.	Accuracy Plot: Displays training and validation accuracy over epochs.
+![acc.png](deepfake_detection\visualization\acc.png)
 
 2.	Confusion Matrix: Visualizes the confusion matrix of the predictions.
 
@@ -85,16 +86,7 @@ The following visualizations are generated during model training to assess perfo
 
 4.	AUC Curve: Displays the Area Under Curve (AUC) metric.
 
-These plots are saved as PNG images in the visualizations/ folder:
-
-•	acc.png
-`![Alt Text](path/to/image)`
-
-•	cm.png
-
-•	roc.png
-
-•	auc.png
+These plots are saved as PNG images in the visualizations/ folder.
 
 
 ### Flask Web Application
